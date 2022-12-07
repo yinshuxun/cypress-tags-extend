@@ -1,5 +1,5 @@
 {
-  "name": "cypress-tags",
+  "name": "cypress-tags-extend",
   "version": "1.1.2",
   "description": "Use custom tags to slice up Cypress test runs.",
   "type": "commonjs",
@@ -40,7 +40,8 @@
     "mocha": "^10.0.0",
     "ts-node": "^10.3.1",
     "tsify": "^5.0.2",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "cypress": "^10.0.0"
   },
   "peerDependencies": {
     "cypress": ">= 6.0.0"

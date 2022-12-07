@@ -18,6 +18,7 @@ const resetConfig = (config: Cypress.PluginConfigOptions) => {
   delete config.env.CYPRESS_USE_INCLUDE_EXCLUDE_EXPRESSIONS;
   delete config.env.CYPRESS_INCLUDE_EXPRESSION;
   delete config.env.CYPRESS_EXCLUDE_EXPRESSION;
+  delete config.env.CYPRESS_USE_FILE_EXEC_SCOPE;
 };
 
 const tagify = (config: Cypress.PluginConfigOptions, fileName: string, output: string[] = []): Promise<string[]> => {
